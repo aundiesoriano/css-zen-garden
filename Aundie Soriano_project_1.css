@@ -1,0 +1,351 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	
+	background-color: #2A1247;
+	color: #FFFFFF;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+
+
+/* all subheaders */
+h1, h2, h3{
+	
+	/* you don't see the text anymore | it'll be floating outside the monitor*/
+	text-indent: -99999px;
+	
+}
+
+
+p{
+	
+	font-size: 14px; 
+	
+}
+
+#container{
+	
+	width: 1020px;
+	height: 2700px;
+	margin: auto;
+	
+}
+
+
+/* targetting links */
+#container a{
+	
+	text-decoration: none;
+	color: #35D6FF;
+	
+}
+
+
+/* targetting links > hover */
+#container a:hover{
+	
+	text-decoration: none;
+	color: #FE4BC9;
+	
+}
+
+/* title: css zen garden */
+#header h1{
+	
+	background-image: url("images/h1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 326px;
+	margin-bottom: 40px;
+	
+}
+
+
+/* summary title */
+#header h2{
+	
+	background-image: url("images/h2.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 161px;
+	
+}
+
+
+/* summary */
+#summary{
+	
+	height: 80px;
+	width: 280px;
+	font-size: 14px;
+	padding-left: 560px;
+	margin-top: -140px;
+	
+}
+	
+
+/* enlightenment */
+#enlightenment{
+	
+	background-image: url("images/enlightenment.png");
+	background-repeat: no-repeat;
+	height: 340px;
+	margin-top: 80px;
+	margin-left: 304px;
+	
+}
+
+
+
+.e1, .e2, .e3{
+	
+	width: 510px;
+	
+}
+
+
+.e1{
+	
+	margin: 135px 0px 0px 70px;
+}
+
+
+.e2, .e3{
+	
+	margin: 10px 0px 0px 70px;
+	
+}
+
+
+
+/* about */
+#about{
+	
+	background-image: url("images/about.png");
+	background-repeat: no-repeat;
+	height: 351px;
+	margin-top: 40px;
+	margin-left: 304px;
+	
+}
+	
+
+.a1, .a2{
+	
+	width: 510px;
+	
+}
+
+
+.a1{
+	
+	margin: 126px 0px 0px 70px;
+}
+
+
+.a2{
+	
+	margin: 10px 0px 0px 70px;
+
+}
+
+
+/* participation */
+#participation{
+	
+	background-image: url("images/participation.png");
+	background-repeat: no-repeat;
+	height: 486px;
+	margin-top: 40px;
+	margin-left: 90px;
+	
+}
+	
+
+.p1, .p2, .p3{
+	
+	width: 310px;
+	
+}
+
+
+.p1{
+	
+	margin: 120px 0px 0px 58px;
+}
+
+
+.p2, .p3{
+	
+	margin: 10px 0px 0px 58px;
+
+}
+
+
+/* benefits */
+#benefits{
+	
+	background-image: url("images/benefits.png");
+	background-repeat: no-repeat;
+	height: 486px;
+	margin-top: -504px;
+	margin-left: 530px;
+	
+}
+	
+
+.b1{
+	
+	width: 315px;
+	margin: 320px 0px 0px 53px;
+}
+
+
+/* requirements */
+#requirements{
+	
+	background-image: url("images/requirements.png");
+	background-repeat: no-repeat;
+	height: 466px;
+	margin-top: 40px;
+	margin-left: 90px;
+	position:relative;
+	z-index:100;
+	
+}
+	
+
+.r1, .r2, .r3, .r4, .r5{
+	
+	width: 705px;
+	
+}
+
+
+.r1{
+	
+	margin: 120px 0px 0px 58px;
+}
+
+
+.r2, .r3, .r4, .r5{
+	
+	margin: 10px 0px 0px 58px;
+
+}
+
+
+#footer{
+	
+	background-image: url("images/footer.png");
+	background-repeat: no-repeat;
+	align-content: center;
+	height: 581px;
+	width: 1020;
+	text-align: center;
+
+	margin-top: -205px;
+	
+}
+
+#footer a{
+	
+	display: inline-block;
+	margin-top: 465px;
+	margin-left: 35px;
+	margin-right: 35px;
+	
+}
+
+
+
+/* Link Lists */
+
+
+/* select a design */
+#select{
+
+	background-image: url("images/design.png");
+	background-repeat: no-repeat;
+	height: 340px;
+	margin-top: -2160px;
+	margin-left: 90px;
+
+}
+
+.name{
+	
+	color: #FFFFFF !important; 
+	
+}
+
+
+#select ul{
+	
+	margin-top: 45px;
+	width: 150px;
+	font-size: 11px;
+	direction: rtl;
+	margin-left: 14px;
+	list-style-image: url("images/bullet.png");
+	padding-top: 4px;
+	
+}
+
+
+/* archives */
+#archives{
+	
+	background-image: url("images/archives.png");
+	background-repeat: no-repeat;
+	height: 131px;
+	margin-top: 1478px;
+	margin-left: 90px;
+	
+}
+
+
+#archives ul{
+	
+	margin-top: 45px;
+	width: 150px;
+	font-size: 11px;
+	margin-left: 574px;
+	list-style-image: url("images/bullet_2.png");
+	padding-top: 4px;
+	
+}
+
+
+/* resources */
+#resources{
+
+	background-image: url("images/resources.png");
+	background-repeat: no-repeat;
+	height: 271px;
+	margin-top: -1586px;
+	margin-left: 90px;
+
+}
+
+
+#resources ul{
+	
+	margin-top: 40px;
+	width: 150px;
+	font-size: 11px;
+	direction: rtl;
+	margin-left: 14px;
+	list-style-image: url("images/bullet.png");
+	padding-top: 4px;
+	
+}
+
+
+
+
+
+
+
